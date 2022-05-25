@@ -105,7 +105,7 @@
                 </div>
 
                 <!-- Static sidebar for desktop -->
-                @include('layouts.sidebar')
+                @include('partials.sidebar')
 
                 <div class="flex-1 min-w-0 flex flex-col overflow-hidden">
                     <!-- Mobile top navigation -->
@@ -129,7 +129,7 @@
                     <main class="flex-1 flex overflow-hidden">
                         <!-- Primary column -->
                         <section aria-labelledby="primary-heading" class="flex-1 flex flex-col order-last">
-                            @include('layouts.topbar')
+                            @include('partials.topbar')
                             <!-- Your content -->
                             <div class="min-w-full flex-1 flex flex-col">
                                 <div class="grow mx-6 mt-10 mb-2 overflow-y-auto">
@@ -145,7 +145,7 @@
                         </section>
 
                         <!-- Secondary column (hidden on smaller screens) -->
-                        @include('layouts.aside')
+                        @include('partials.aside')
                     </main>
                 </div>
             </div>
